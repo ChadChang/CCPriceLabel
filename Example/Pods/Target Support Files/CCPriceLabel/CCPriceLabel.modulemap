@@ -1,0 +1,6 @@
+framework module CCPriceLabel {
+  umbrella header "CCPriceLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}
