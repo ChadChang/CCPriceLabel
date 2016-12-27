@@ -13,6 +13,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		632A3AEA1E128E6A007065DF /* CCPriceLabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632A3AE91E128E6A007065DF /* CCPriceLabelTests.swift */; };
 		7B7D5EF7E8E3FF979B66F8FA /* Pods_CCPriceLabel_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C753964D6A5E4FC4CDB18D1 /* Pods_CCPriceLabel_Tests.framework */; };
 		8C438AF2B928A745138CEBE2 /* Pods_CCPriceLabel_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E560AA2406FDFFBCD43AEF /* Pods_CCPriceLabel_Example.framework */; };
 /* End PBXBuildFile section */
@@ -40,6 +41,7 @@
 		607FACE51AFB9204008FA782 /* CCPriceLabel_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCPriceLabel_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		632A3AE91E128E6A007065DF /* CCPriceLabelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCPriceLabelTests.swift; sourceTree = "<group>"; };
 		6EC172B30B155562E0364CCC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		78E560AA2406FDFFBCD43AEF /* Pods_CCPriceLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCPriceLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C753964D6A5E4FC4CDB18D1 /* Pods_CCPriceLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCPriceLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,6 +117,7 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				632A3AE61E128A82007065DF /* ModelTest */,
 				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
@@ -137,6 +140,14 @@
 				6EC172B30B155562E0364CCC /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		632A3AE61E128A82007065DF /* ModelTest */ = {
+			isa = PBXGroup;
+			children = (
+				632A3AE91E128E6A007065DF /* CCPriceLabelTests.swift */,
+			);
+			name = ModelTest;
 			sourceTree = "<group>";
 		};
 		9D95A60A7D0EE3DC48CA3F79 /* Pods */ = {
@@ -370,6 +381,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				632A3AEA1E128E6A007065DF /* CCPriceLabelTests.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
