@@ -22,7 +22,7 @@ class CCPriceLabelTests: XCTestCase {
 
     func testCCPriceLableInit()
     {
-      let priceLabel = CCPriceLabel(frame: CGRect.zero)
+      let priceLabel = CCPriceLabel()
       XCTAssertNotNil(priceLabel, "PriceLabel should not be nil");
     }
 
